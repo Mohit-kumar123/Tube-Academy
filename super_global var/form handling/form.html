@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling with PHP Superglobals</title>
+</head>
+<body>
+
+    <h1>Form Handling with PHP</h1>
+    <!-- Form with GET and POST options -->
+    <form action="form_handler.php" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="phone">phone:</label><br>
+        <input type="number" id="phone" name="phone" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Two buttons to choose GET or POST -->
+        <button type="submit" name="submit_post">Submit via POST</button>
+        <button type="submit" name="submit_get" formmethod="get">Submit via GET</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+in include if the some file is not present then it will give warning and rest of code will executed
+
+and
+in require if the some file is not exist in your system then it will get terminate where he found the filename and rest of the code will npt executed.
+
+
+Difference Between include_once and include:
+Multiple Includes:
+
+include_once: If the same file is included multiple times, include_once ensures that it is included only the first time. Subsequent calls to include_once for the same file are ignored.
+
+include: Every time include is called, the file is included, even if it has already been included earlier.

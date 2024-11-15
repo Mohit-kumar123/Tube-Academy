@@ -1,0 +1,10 @@
+Pattern modifiers in PHP are special characters that modify the behavior of regular expressions. They are added after the delimiter in the pattern (typically after the final /) and provide additional functionality like case-insensitivity, multi-line matching, and more.
+
+Common Pattern Modifiers in PHP:
+i: Case-insensitive matching.
+m: Multi-line mode. Changes the behavior of ^ and $ to match the start and end of lines, not just the start and end of the string.
+s: Single-line mode. Changes . to match any character, including newlines.
+x: Extended mode. Allows you to add whitespace and comments within the pattern for better readability.
+U: Ungreedy matching. Changes the behavior of quantifiers like *, +, and ? to match the shortest possible string.
+u: Enables Unicode matching, making \w, \W, \b, and other character classes Unicode-aware.
+D: Forces the $ anchor to match the end of the string only, ignoring the newline character.

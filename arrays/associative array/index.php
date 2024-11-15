@@ -1,0 +1,10 @@
+<?php
+$age = array("Ben"=>"35", "Stokes"=>"37", "Jimi"=>"43");
+echo "Ben is " . $age['Ben'] . " years old.";
+
+//reverse this array
+$age = array_reverse($age);
+echo"<br>";
+print_r($age);
+?>
+
