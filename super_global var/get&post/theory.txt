@@ -1,2 +1,0 @@
-Use $_GET when you need to pass non-sensitive, small amounts of data, such as filtering options or search queries that you might want to bookmark or share.
-Use $_POST when you are submitting sensitive data, sending large amounts of information, or performing actions that modify data on the server (e.g., form submissions, uploads, login processes).
